@@ -1,0 +1,10 @@
+#! /bin/bash
+
+echo "USER BASH INFO"
+echo "HOME DIRECTORY: $HOME"
+echo "CURRENT DIRECTORY: $PWD"
+echo "BASH SHELL NAME: $BASH"
+echo "BASH VERSION: $BASH_VERSION"
+echo "USER NAME: $LOGNAME"
+echo "USER OS: $OSTYPE"
+
