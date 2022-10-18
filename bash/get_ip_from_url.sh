@@ -10,7 +10,7 @@
 COMMENTS
 
 
-nmap=$(nmap -n -sn developer.mozilla.org -oG - | awk '/Up$/{print $2}')
+nmap=$(nmap -n -sn $1 -oG - | awk '/Up$/{print $2}')
 
 
 echo $nmap
